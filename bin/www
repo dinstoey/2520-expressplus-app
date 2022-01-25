@@ -27,7 +27,6 @@ var server = http.createServer(app);
  var usedPort = process.env.PORT || port;
  server.listen(usedPort);
 
-server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);
 
